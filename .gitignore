@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Playwright Test Results & Reports
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+playwright/.auth/
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Playwright CLI runtime recordings & videos (keep committed snapshots if needed)
+*.webm
+*.mp4
+*.har
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE & Editor Temporary Files (VS Code project config preserved)
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/*
+!.vscode/mcp.json
+!.vscode/settings.json
+!.vscode/launch.json
